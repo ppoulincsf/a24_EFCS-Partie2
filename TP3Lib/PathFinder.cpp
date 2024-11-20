@@ -57,4 +57,3 @@ Direction PathFinder::findFirstMoveToTarget(int costs[Game::DEFAULT_GAME_HEIGHT]
   // A compléter pour le mandat 2
   return Direction::Undefined;
 }
-}

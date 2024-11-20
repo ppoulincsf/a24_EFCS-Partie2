@@ -31,7 +31,8 @@ bld/
 [Oo]bj/
 [Ll]og/
 [Ll]ogs/
-!/extern/VLD/[Bb]in
+!/extern/VLD/[Bb]in/[Ww][Ii][Nn]32/
+!/extern/VLD/[Bb]in/[Ww][Ii][Nn]64/
 !/extern/SFML/[Bb]in
 # Visual Studio 2015/2017 cache/options directory
 .vs/
