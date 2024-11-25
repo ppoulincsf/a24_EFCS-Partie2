@@ -52,7 +52,7 @@ void PathFinder::computeCosts(const Grid &aGrid, int col, int row, int costs[Gam
 }
 
 // M�thode r�cursive qui parcourt le tableau de co�ts pour trouver le premier d�placement � faire.
-Direction PathFinder::findFirstMoveToTarget(int costs[Game::DEFAULT_GAME_HEIGHT][Game::DEFAULT_GAME_WIDTH], int targetX, int targetY)
+Direction PathFinder::findFirstMoveToTarget(const int costs[Game::DEFAULT_GAME_HEIGHT][Game::DEFAULT_GAME_WIDTH], int targetX, int targetY)
 {
   // A compléter pour le mandat 2
   return Direction::Undefined;
