@@ -11,7 +11,7 @@ public:
 
   static void computeCosts(const Grid& aMaze, int ghostPositionX, int ghostPositionY, int costs[Game::DEFAULT_GAME_HEIGHT][Game::DEFAULT_GAME_WIDTH]);
 
-  // Méthode récursive qui parcourt le tableau de coûts pour trouver le premier déplacement à faire.
-  static Direction findFirstMoveToTarget(int costs[Game::DEFAULT_GAME_HEIGHT][Game::DEFAULT_GAME_WIDTH], int pacmanPositionX, int pacmanPositionY);
+  // MÃ©thode rÃ©cursive qui parcourt le tableau de coÃ»ts pour trouver le premier dÃ©placement Ã  faire.
+  static Direction findFirstMoveToTarget(const int costs[Game::DEFAULT_GAME_HEIGHT][Game::DEFAULT_GAME_WIDTH], int pacmanPositionX, int pacmanPositionY);
 };
 
